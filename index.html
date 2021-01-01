@@ -1,0 +1,294 @@
+<html>
+  <head>
+    <title>Find Sugar Baby!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <style>
+      .a {
+          color:black;
+        }
+
+      .bg {
+          /* The image used */
+          background-image: url("images/header-desktop.jpg");
+
+          /* Full height */
+          height: 695px;
+
+          /* Center and scale the image nicely */
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        
+        .bg2 {
+          /* The image used */
+          background-image: url("images/body2-mobile.png");
+
+          /* Full height */
+          height: 500px;
+
+          /* Center and scale the image nicely */
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        
+        .header-button {
+            margin-top:5px;
+            cursor: pointer;
+            text-transform: uppercase;
+            color: rgb(22, 22, 22);
+            text-align: center;
+            text-decoration: none;
+            font-weight: 800;
+            border-radius: 3em;
+            padding: 0.2em;
+            background: linear-gradient(rgb(255, 224, 119) 0px, rgb(255, 197, 122) 100%);
+            font-family: 'Lato', sans-serif;
+            padding: 10 30 10 30;
+            font-size: 30;
+        }
+        .button-gradient {
+              cursor: pointer;
+              background-image: linear-gradient(to right, rgb(121, 235, 212) 0%, rgb(136, 248, 154) 100%);
+              border-radius: 2.5em;
+              color: rgb(0, 0, 0);
+              display: block;
+              height: 2.8em;
+              
+              text-decoration: none;
+              text-transform: uppercase;
+              font-family: 'Lato', sans-serif;
+              padding: 17 80 10 80;
+              font-weight: 800;
+              font-size: 30;
+              margin-top:30px;
+              margin-bottom:20px;
+          }
+
+        .uctitle {
+          font-size:35;
+          font-weight: bolder;
+          margin-top:20px;
+          margin-bottom:20px;
+        }
+        .uctext {
+          font-size:25;
+          font-weight: bolder;
+        }
+        .ucimage {
+          width: 130px; 
+          margin-right: 10px;
+        }
+        .dorttitle {
+          font-size:xx-large;
+          font-weight: bolder;
+          margin-top:20px;
+          max-width: 550px;
+        }
+        .dorttext {
+          font-size:larger;
+          font-weight: bolder;
+          color: white;
+        }
+        .dortexplain{
+          margin-top:50px;
+          margin-left:120px;
+        }
+        .rounded-circle {
+          border-style: solid;
+          border-width: 8px;
+          border-color:#6200ff;
+          max-width: 250px;
+          margin-bottom: 5px;
+          margin-top: 25px;
+        }
+        .bestitle {
+          font-size:xx-large;
+          font-weight: bolder;
+          margin-top:20px;
+          max-width: 650px;
+        }
+        .bestext {
+          font-size:35;
+          font-weight: bolder;
+          color:black;
+          text-align: center;
+          
+        }
+        .besalt {
+          max-width: 500px;
+          margin-left: auto;
+        }
+
+        .besimage {
+          width: 140px;
+          margin-bottom:4px;
+        }
+        
+        .header-button:hover {
+          color: black;
+        }
+        .button-gradient:hover {
+          color: black;
+        }
+        .rounded-circle:hover {
+          border-color:rgb(121, 235, 212);
+        }
+        
+
+        @media (max-width: 400px) {
+            .bg {
+              background-image: url("images/header-desktop.jpg");
+              
+            }
+            .bg2 {
+              background-image: url("images/body2-desktop.png");
+            }
+            .dortexplain {
+              margin-top:50px;
+              margin-left:120px;
+            }
+            .dorttext {
+              font-size:larger;
+            }
+            .uctitle {
+              font-size: 35;
+              margin-bottom:40px;
+            }
+            .uctext {
+              font-size: larger;
+            }
+            .ucimage {
+              width: 130px;
+            }
+            .rounded-circle {
+              border-style: solid;
+              border-width: 8px;
+              border-color:#6200ff;
+              max-width: 180px;
+              margin-top: 25px;
+              
+            }
+            .bestext {
+              font-size: larger;
+            }
+            .besalt {
+              max-width: 900px;
+            }
+            .besimage {
+              width: 110px;
+              margin-bottom:4px;
+            }
+
+          }
+    </style>
+  </head>
+  <body>
+    <div class="bg">
+      <div class="d-flex p-2 bd-highlight justify-content-center">
+        <img src="images/svg/logo.png" style="width: auto; margin-top:3rem;"></img>
+      </div>
+      <div class="d-flex p-2 bd-highlight justify-content-center">
+        <a href="https://t.acam.link/130251/2994/0?bo=2779,2778,2777,2776,2775&po=6533" class="header-button"><span>create a free account now</span></a>
+      </div> 
+    </div>
+    <div class="ucbilgi">
+      <div class="d-flex p-2 bd-highlight justify-content-center">
+        <h2 class="uctitle">A FUN WAY TO ENJOY <strong style="color:rgb(255, 193, 0);">Dating!</strong></h2>
+      </div>
+      <div class="d-flex p-2 bd-highlight justify-content-center">
+        <img class="ucimage" src="images/svg/video.svg" style="margin-right: 55px;">
+        <img src="images/svg/profile.svg" class="ucimage" style="margin-right: 55px;">
+        <img src="images/svg/premium.svg" class="ucimage">
+      </div>
+      <div class="d-flex p-2 bd-highlight justify-content-center">
+        <span class="uctext text-center" style="margin-right: 35px;">PHOTOS <br>& VIDEOS</span>
+        <span class="uctext text-center" style="margin-right: 35px;">CREATE FREE <br>PROFILE</span>
+        <span class="uctext text-center">BECOME VIP <br>MEMBER</span>
+      </div>
+      <div class="d-flex p-2 bd-highlight justify-content-center">
+        <a href="https://t.acam.link/130251/2994/0?bo=2779,2778,2777,2776,2775&po=6533" class="button-gradient"><span>join for free now</span></a>
+      </div>
+    </div>
+
+    <div class="bg2">
+      <div class="d-flex p-2 bd-highlight justify-content-center">
+        <h2 class="dorttitle text-center"><span style="color:white">FEW OF THE ADVANTAGES</span> <strong style="color:rgb(255, 193, 0);">BEING KING</strong></h2>
+      </div>
+      <div class="dortexplain">
+        <div class="col" style="margin-bottom: 25px;"><img src="images/icons/chat.png" style="color-adjust: yellow; width: 20px; margin-right:15px;"><span class="dorttext text-center" style="margin-right: 35px;">Send Instant Messages</span></div>
+        <div class="col" style="margin-bottom: 25px;"><img src="images/icons/noad.png" style="width: 20px; margin-right:15px;"><span class="dorttext text-center" style="margin-right: 35px;">Ad-Free Experience</span></div>
+        <div class="col" style="margin-bottom: 25px;"><img src="images/icons/find.png" style="width: 20px; margin-right:15px;"><span class="dorttext text-center" style="margin-right: 35px;">Find Someone Just For You</span></div>
+        <div class="col" style="margin-bottom: 25px;"><img src="images/icons/aprove.png" style="width: 20px; margin-right:15px;"><span class="dorttext text-center" style="margin-right: 35px;">Approved Real Persons</span></div>
+        <div class="col" style="margin-bottom: 25px;"><img src="images/icons/money.png" style="width: 20px; margin-right:15px;"><span class="dorttext text-center" style="margin-right: 35px;">Cheapest Service</span></div>
+      </div>
+    </div>
+    <div class="bes">
+      <div class="d-flex p-2 bd-highlight justify-content-center">
+        <h2 class="bestitle text-center"><span>TOP</span> <strong style="color:rgb(255, 193, 0); font-size: 50;">9</strong> POPULAR SUGAR BABY</h2>
+
+      </div>
+      <div class="container">
+        <div class="d-flex bd-highlight justify-content-center">
+          <div class="col text-center">
+            <a href="https://t.acam.link/130251/2994/0?bo=2779,2778,2777,2776,2775&po=6533"><img src="images/girls/p1.jpeg" class="rounded-circle" alt="Cinque Terre"></a><br>
+            <img src="images/svg/stars1.svg" class="besimage"><br>
+            <a href="https://t.acam.link/130251/2994/0?bo=2779,2778,2777,2776,2775&po=6533"><span class="bestext">Angelochek042</span></a>
+          </div>
+          <div class="col text-center">
+            <a href="https://t.acam.link/130251/2994/0?bo=2779,2778,2777,2776,2775&po=6533"><img src="images/girls/p2.jpeg" class="rounded-circle" alt="Cinque Terre"></a><br>
+            <img src="images/svg/stars1.svg" class="besimage"><br>
+            <a href="https://t.acam.link/130251/2994/0?bo=2779,2778,2777,2776,2775&po=6533"><span class="bestext">x-lollipop-x</span></a>
+          </div>
+          <div class="col text-center">
+            <a href="https://t.acam.link/130251/2994/0?bo=2779,2778,2777,2776,2775&po=6533"><img src="images/girls/p3.jpeg" class="rounded-circle" alt="Cinque Terre"></a><br>
+              <img src="images/svg/stars2.svg" class="besimage"><br>
+              <a href="https://t.acam.link/130251/2994/0?bo=2779,2778,2777,2776,2775&po=6533"><span class="bestext">Foxyee</span></a>
+          </div>
+        </div>
+        <div class="d-flex bd-highlight justify-content-center">
+          <div class="col text-center">
+            <a href="https://t.acam.link/130251/2994/0?bo=2779,2778,2777,2776,2775&po=6533"><img src="images/girls/p4.jpeg" class="rounded-circle" alt="Cinque Terre"></a><br>
+            <img src="images/svg/stars1.svg" class="besimage"><br>
+            <a href="https://t.acam.link/130251/2994/0?bo=2779,2778,2777,2776,2775&po=6533"><span class="bestext">Fitnessmilf40</span></a>
+          </div>
+          <div class="col text-center">
+            <a href="https://t.acam.link/130251/2994/0?bo=2779,2778,2777,2776,2775&po=6533"><img src="images/girls/p5.jpeg" class="rounded-circle" alt="Cinque Terre"></a><br>
+            <img src="images/svg/stars1.svg" class="besimage"><br>
+            <a href="https://t.acam.link/130251/2994/0?bo=2779,2778,2777,2776,2775&po=6533"><span class="bestext">GabyAico</span></a>
+          </div>
+          <div class="col text-center">
+            <a href="https://t.acam.link/130251/2994/0?bo=2779,2778,2777,2776,2775&po=6533"><img src="images/girls/p6.jpeg" class="rounded-circle" alt="Cinque Terre"></a><br>
+              <img src="images/svg/stars2.svg" class="besimage"><br>
+              <a href="https://t.acam.link/130251/2994/0?bo=2779,2778,2777,2776,2775&po=6533"><span class="bestext">NinnaMonroe</span></a>
+          </div>
+        </div>
+        <div class="d-flex bd-highlight justify-content-center">
+          <div class="col text-center">
+            <a href="https://t.acam.link/130251/2994/0?bo=2779,2778,2777,2776,2775&po=6533"><img src="images/girls/p7.jpeg" class="rounded-circle" alt="Cinque Terre"></a><br>
+            <img src="images/svg/stars1.svg" class="besimage"><br>
+            <a href="https://t.acam.link/130251/2994/0?bo=2779,2778,2777,2776,2775&po=6533"><span class="bestext">Catty Fox</span></a>
+          </div>
+          <div class="col text-center">
+            <a href="https://t.acam.link/130251/2994/0?bo=2779,2778,2777,2776,2775&po=6533"><img src="images/girls/p8.jpeg" class="rounded-circle" alt="Cinque Terre"></a><br>
+            <img src="images/svg/stars1.svg" class="besimage"><br>
+            <a href="https://t.acam.link/130251/2994/0?bo=2779,2778,2777,2776,2775&po=6533"><span class="bestext">Luna Nice</span></a>
+          </div>
+          <div class="col text-center">
+            <a href="https://t.acam.link/130251/2994/0?bo=2779,2778,2777,2776,2775&po=6533"><img src="images/girls/p9.jpeg" class="rounded-circle" alt="Cinque Terre"></a><br>
+              <img src="images/svg/stars2.svg" class="besimage"><br>
+              <a href="https://t.acam.link/130251/2994/0?bo=2779,2778,2777,2776,2775&po=6533"><span class="bestext">Vanesse Mi</span></a>
+          </div>
+        </div>
+
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
